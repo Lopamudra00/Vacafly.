@@ -8,9 +8,6 @@ import image4 from '../../Images/img4.jpg'
 import image5 from '../../Images/img5.jpg'
 import image6 from '../../Images/img6.jpg'
 import { HiOutlineLocationMarker, HiOutlineClipboardCheck } from "react-icons/hi";
-
-import AOS from 'aos';
-
 const Data = [
     {
         id: 1,
@@ -78,9 +75,9 @@ const Data = [
 
 const Main = () => {
 
-    useEffect(() => {
-        AOS.init({ duration: 2000 })
-    }, [])
+    // useEffect(() => {
+    //     AOS.init({ duration: 2000 })
+    // }, [])
 
     return (
         <section className="main container section">

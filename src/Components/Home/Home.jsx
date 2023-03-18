@@ -8,13 +8,13 @@ import video1 from '../../Images/video.mp4'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { BsListTask } from 'react-icons/bs'
 import { TbApps } from 'react-icons/tb'
-import AOS from 'aos';
+
 
 const Home = () => {
 
-    useEffect(() => {
-        AOS.init({ duration: 2000 });
-    }, []);
+    // useEffect(() => {
+    //     AOS.init({ duration: 2000 });
+    // }, []);
 
     return (
         <section className="home">
@@ -25,6 +25,7 @@ const Home = () => {
                 <div className="textDiv">
                     <span
                         data-aos="fade-up"
+                        data-aos-duration="2000"
                         className="smallText">
                         Our Packages
                     </span>
