@@ -8,7 +8,7 @@ import image4 from '../../Images/img4.jpg'
 import image5 from '../../Images/img5.jpg'
 import image6 from '../../Images/img6.jpg'
 import { HiOutlineLocationMarker, HiOutlineClipboardCheck } from "react-icons/hi";
-import 'aos/dist/aos.css';
+
 import AOS from 'aos';
 
 const Data = [
