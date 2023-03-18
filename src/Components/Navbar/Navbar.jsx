@@ -18,7 +18,7 @@ const Navbar = () => {
                 <header className='header flex'>
 
                     <div className='logoDiv'>
-                        <a href="#" className='logo flex'>
+                        <a href="#/" className='logo flex'>
                             <h1>Vacafly.</h1>
                         </a>
                     </div>
@@ -26,19 +26,19 @@ const Navbar = () => {
                     <div className={active}>
                         <ul className='navList'>
                             <li className='navItem'>
-                                <a href='#' className='navLink'>Home</a>
+                                <a href='#/' className='navLink'>Home</a>
                             </li>
                             <li className='navItem'>
-                                <a href='#' className='navLink'>Packages</a>
+                                <a href='#/' className='navLink'>Packages</a>
                             </li>
                             <li className='navItem'>
-                                <a href='#' className='navLink'>Shop</a>
+                                <a href='#/' className='navLink'>Shop</a>
                             </li>
                             <li className='navItem'>
-                                <a href='#' className='navLink'>Contact</a>
+                                <a href='#/' className='navLink'>Contact</a>
                             </li>
                             <button className='btn'>
-                                <a href='#'>BOOK NOW</a>
+                                <a href='#/'>BOOK NOW</a>
                             </button>
                         </ul>
 

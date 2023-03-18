@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
-import './Main.scss'
-
+import React from "react";
+import './Main.scss';
 import image from '../../Images/img.jpg'
 import image2 from '../../Images/img2.jpg'
 import image3 from '../../Images/img3.jpg'
@@ -69,8 +68,6 @@ const Data = [
         description: 'The epitome of romance,Bora Bora is one of the best travel destinations in the world.This place is known for its luxurious stays and adventurous activities.'
     }
 ]
-
-
 
 
 const Main = () => {

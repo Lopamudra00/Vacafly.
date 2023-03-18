@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import './Home.scss'
 import { GrLocation } from 'react-icons/gr'
 import { HiFilter } from 'react-icons/hi'
