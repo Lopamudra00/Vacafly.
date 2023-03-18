@@ -9,7 +9,6 @@ import { AiOutlineInstagram } from 'react-icons/ai'
 import { BsListTask } from 'react-icons/bs'
 import { TbApps } from 'react-icons/tb'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const Home = () => {
 
